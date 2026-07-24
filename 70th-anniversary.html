@@ -243,6 +243,73 @@ body .transition {display: block}
   z-index: 2;
 }
 
+.page-70th-anniversary .anniversary-partners-placeholder {
+  justify-content: center;
+  width: 100%;
+  min-height: 6em;
+  opacity: 0.85;
+}
+
+.page-70th-anniversary .event-partner-item {
+  flex-direction: column;
+  gap: 0.75em;
+  text-align: center;
+}
+
+.page-70th-anniversary .event-partner-name {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--anniversary-navy);
+}
+
+.page-70th-anniversary .registration-form-toolbar {
+  justify-content: flex-end;
+  width: 100%;
+  margin-bottom: 1.5em;
+  display: flex;
+}
+
+.page-70th-anniversary .registration-form-content.is-hidden {
+  display: none;
+}
+
+.page-70th-anniversary .button-registration-toggle {
+  background-color: transparent;
+  color: var(--anniversary-blue);
+  border: 2px solid var(--anniversary-blue);
+}
+
+.page-70th-anniversary .button-registration-toggle:hover {
+  background-color: var(--anniversary-blue);
+  color: #fff;
+}
+
+.page-70th-anniversary .anniversary-registration-layout .gc-tab {
+  cursor: default;
+}
+
+.page-70th-anniversary #registration-form-content.contact-form-wrap {
+  align-items: stretch;
+}
+
+.page-70th-anniversary #registration-form-content .sign-up-wrap {
+  position: static;
+  top: auto;
+  width: 100%;
+  margin-bottom: 1.5em;
+}
+
+.page-70th-anniversary .anniversary-registration-layout {
+  width: 100%;
+}
+
+.page-70th-anniversary .anniversary-registration-layout .gc-menu,
+.page-70th-anniversary .anniversary-registration-layout .gc-tab-content {
+  position: relative;
+  z-index: 0;
+}
+
 .anniversary-fireworks-canvas {
   position: fixed;
   top: 0;
@@ -688,7 +755,7 @@ svg.trapezoidal-horizintal{
             <p class="p-1rem">AIESEC was established in 1948 after World War II, where seven youth across seven countries had a dream of building cross-cultural understanding across nations. They hoped to change the world, one person and one internship at a time.<br></p>
           </div>
         </div>
-        <div class="center-flex-wrap-horizontal sign-up-steps reverse"><img src="images/AboutUs-img-hero.webp" loading="lazy" alt="AIESEC in the United States members at a leadership event" class="image-about-us">
+        <div class="center-flex-wrap-horizontal sign-up-steps reverse"><img src="images/1956.png" loading="lazy" alt="AIESEC in the United States founding meeting at Columbia University, 1956" class="image-about-us">
           <div class="flex-vertical-stretch steps">
             <h3 class="h3">AIESEC in the United States was established</h3>
             <p class="number-abs-big about-us">1956</p>
@@ -723,7 +790,7 @@ svg.trapezoidal-horizintal{
             <p class="p-1rem">AIESEC is a global network of people that simply believe youth leadership is not an option, but our responsibility. Across the United States, that belief continues to guide every local chapter, every exchange, and every leader we develop.<br></p>
           </div>
         </div>
-        <div class="center-flex-wrap-horizontal sign-up-steps"><img src="images/next-gen-visual.avif" loading="lazy" alt="AIESEC US members celebrating at a leadership event" class="image-about-us">
+        <div class="center-flex-wrap-horizontal sign-up-steps"><img src="images/2026.png" loading="lazy" alt="AIESEC US members celebrating 70 years of leadership in the United States, 2026" class="image-about-us">
           <div class="flex-vertical-stretch steps">
             <h3 class="h3">Celebrating 70 years in the United States</h3>
             <p class="number-abs-big about-us">2026</p>
@@ -733,57 +800,168 @@ svg.trapezoidal-horizintal{
         <div class="line-divider"></div>
       </div>
     </div>
-    <div class="container_em gallery-about-us">
-      <div class="image-gallery-wrap"><img src="images/gallery-p-3_1.avif" loading="lazy" sizes="100vw" alt="AIESEC member shouting" srcset="images/gallery-p-3_1-p-3.avif 500w, images/gallery-p-3_1-p-3.avif 800w, images/gallery-p-3_1-p-3.avif 1080w, images/gallery-p-3_1.avif 1365w" class="image-gallery"><img src="images/gallery-l-1_1.avif" loading="lazy" sizes="100vw" alt="AIESEC Members having fun at the conference" srcset="images/gallery-l-1_1gallery-l-1.avif 1080w, images/gallery-l-1_1gallery-l-1.avif 1600w, images/gallery-l-1_1.avif 2048w" class="image-gallery"><img src="images/gallery-l-4_1.avif" loading="lazy" sizes="100vw" alt="AIESEC facilitator in session" srcset="images/gallery-l-4_1gallery-l-4.avif 1080w, images/gallery-l-4_1.avif 2048w" class="image-gallery"><img src="images/gallery-l-2.webp" loading="lazy" sizes="100vw" alt="AIESEC members at the conference" srcset="images/gallery-l-2-p-1080.jpeg 1080w, images/gallery-l-2-p-1600.jpeg 1600w, images/gallery-l-2-p-2000.jpeg 2000w, images/gallery-l-2.webp 2048w" class="image-gallery"><img src="images/gallery-p-1.webp" loading="lazy" sizes="100vw" alt="AIESEC President with the walking man t-shirt" srcset="images/gallery-p-1-p-500.jpeg 500w, images/gallery-p-1-p-800.jpeg 800w, images/gallery-p-1.webp 1062w" class="image-gallery"></div>
-      <div class="image-gallery-wrap bot"><img src="images/gallery-l-3_1.avif" loading="lazy" sizes="100vw" alt="Group of Volunteer on Exchange" srcset="images/gallery-l-3_1gallery-l-3.avif 500w, images/gallery-l-3_1gallery-l-3.avif 1080w, images/gallery-l-3_1.avif 2048w" class="image-gallery"><img src="images/gallery-p-2.webp" loading="lazy" sizes="100vw" alt="AIESEC International Member at the conference" srcset="images/gallery-p-2-p-500.jpeg 500w, images/gallery-p-2-p-800.jpeg 800w, images/gallery-p-2-p-1080.jpeg 1080w, images/gallery-p-2.webp 1365w" class="image-gallery"><img src="images/gallery-l-5_1.avif" loading="lazy" sizes="100vw" alt="AIESEC Members with SDG number 8 Decent Work and economic Growth" srcset="images/gallery-l-5_1gallery-l-5.avif 1080w, images/gallery-l-5_1.avif 2048w" class="image-gallery"><img src="images/gallery-p-4.webp" loading="lazy" sizes="100vw" alt="AIESEC Member rocking" srcset="images/gallery-p-4-p-500.jpeg 500w, images/gallery-p-4-p-800.jpeg 800w, images/gallery-p-4-p-1080.jpeg 1080w, images/gallery-p-4.webp 1365w" class="image-gallery"><img src="images/gallery-l-6.webp" loading="lazy" alt="AIESEC Volunteers on a SDG exchange program" class="image-gallery"></div>
+    <div class="container_em center-flex-wrap-vertical" id="event-partners">
+      <h2 class="h2-center"><strong class="blue">Event Partners</strong></h2>
+      <p class="p-center _80--left-mobile">We&#x27;re welcoming organizations to partner with us for the 70th Anniversary celebration. Partner logos and details will be announced soon.</p>
+      <div class="client-logo-wrapper">
+        <div class="client-logo-grid" role="list">
+          <div role="listitem" class="client-logo-holder event-partner-item"><a href="https://www.dhl.com" target="_blank" class="w-inline-block"><img src="images/dhl-partner.svg" loading="lazy" alt="DHL" class="b2b-logos"></a><p class="event-partner-name">DHL</p></div>
+          <div role="listitem" class="client-logo-holder event-partner-item"><a href="https://www.pwc.com" target="_blank" class="w-inline-block"><img src="images/pwc-partner.svg" loading="lazy" alt="PwC" class="b2b-logos"></a><p class="event-partner-name">PwC</p></div>
+          <div role="listitem" class="client-logo-holder event-partner-item"><a href="https://www.un.org" target="_blank" class="w-inline-block"><img src="images/un-partner.svg" loading="lazy" alt="United Nations" class="b2b-logos"></a><p class="event-partner-name">United Nations</p></div>
+        </div>
+      </div>
+      <div class="hero-cta">
+        <a href="sign-up.html" class="button-cta-v-norm button-anniversary-red w-button">Become an event partner</a>
+      </div>
+    </div>
+    <div class="container_em center-flex-wrap-vertical">
+      <div class="flex-vertical-center _100 _3-gap">
+        <h2 class="h2-center"><strong class="blue">Board of Directors</strong></h2>
+        <div class="team-wrapper-cms">
+          <div role="list" class="h3-testimonials">
+            <div role="listitem" class="team-item-copy"><img height="Auto" alt="Adriana Rubio" width="Auto" src="https://cdn.prod.website-files.com/61b7956e5b41b31e15be1ab4/6815170d753005d67f16780e_Screenshot%202025-05-02%20at%203.01.35%E2%80%AFp.m..png" loading="lazy" class="team-photo">
+              <h3 class="h3-no-bot-space">Adriana Rubio</h3>
+              <h6 class="h4-25em-25ch">Chairwoman of the Board</h6>
+              <p class="p-15ch">Managing Director at Code and Theory</p>
+              <a aria-label="Linkedin Profile" href="https://www.linkedin.com/in/aadrianarubio/" target="_blank" class="social-link linkedin w-inline-block"></a>
+            </div>
+            <div role="listitem" class="team-item-copy"><img height="Auto" alt="Paulina Ávila" width="Auto" src="https://cdn.prod.website-files.com/61b7956e5b41b31e15be1ab4/681518c2331db2ce81057e7c_Screenshot%202025-05-02%20at%203.10.31%E2%80%AFp.m..png" loading="lazy" class="team-photo">
+              <h3 class="h3-no-bot-space">Paulina Ávila</h3>
+              <p class="p-15ch">President AIESEC US 24.25</p>
+              <a aria-label="Linkedin Profile" href="https://www.linkedin.com/in/paulinagtzav/" target="_blank" class="social-link linkedin w-inline-block"></a>
+            </div>
+            <div role="listitem" class="team-item-copy"><img height="Auto" alt="Zachary Younger" width="Auto" src="https://cdn.prod.website-files.com/61b7956e5b41b31e15be1ab4/6815191cb951fb853d7021fb_Screenshot%202025-05-02%20at%203.12.03%E2%80%AFp.m..png" loading="lazy" class="team-photo">
+              <h3 class="h3-no-bot-space">Zachary Younger</h3>
+              <p class="p-15ch">President AIESEC US 25.26</p>
+              <a aria-label="Linkedin Profile" href="https://www.linkedin.com/in/zachary-younger-097a1a249/" target="_blank" class="social-link linkedin w-inline-block"></a>
+            </div>
+            <div role="listitem" class="team-item-copy"><img height="Auto" alt="Franklin Morales" width="Auto" src="https://uploads-ssl.webflow.com/61b7956e5b41b31e15be1ab4/63edeba0d063813114dfa67d_Franklin%20Morales.webp" loading="lazy" class="team-photo">
+              <h3 class="h3-no-bot-space">Franklin Morales</h3>
+              <p class="p-15ch">Head Of Commercial and Economic Development Affairs at the Embassy of Panama in USA</p>
+              <a aria-label="Linkedin Profile" href="https://www.linkedin.com/in/franklinmoralesc/" target="_blank" class="social-link linkedin w-inline-block"></a>
+            </div>
+            <div role="listitem" class="team-item-copy"><img height="Auto" alt="Paarth Sharma" width="Auto" src="https://uploads-ssl.webflow.com/61b7956e5b41b31e15be1ab4/63edeb6aa40b9a1eef1bf9fa_Paarth%20Sharma.webp" loading="lazy" class="team-photo">
+              <h3 class="h3-no-bot-space">Paarth Sharma</h3>
+              <p class="p-15ch">Product manager, Amazon</p>
+              <a aria-label="Linkedin Profile" href="https://www.linkedin.com/in/paarthssharma/" target="_blank" class="social-link linkedin w-inline-block"></a>
+            </div>
+            <div role="listitem" class="team-item-copy"><img height="Auto" alt="Andrew Lewis" width="Auto" src="https://cdn.prod.website-files.com/61b7956e5b41b31e15be1ab4/681519646fa1d36df316cd12_Screenshot%202025-05-02%20at%203.03.15%E2%80%AFp.m..png" loading="lazy" class="team-photo">
+              <h3 class="h3-no-bot-space">Andrew Lewis</h3>
+              <h6 class="h4-25em-25ch">Vice Chairman of the Board</h6>
+              <p class="p-15ch">Partner-in-Charge, Federal Audit at KPMG LLP</p>
+              <a aria-label="Linkedin Profile" href="https://www.linkedin.com/in/andrew-c-lewis/" target="_blank" class="social-link linkedin w-inline-block"></a>
+            </div>
+            <div role="listitem" class="team-item-copy"><img height="Auto" alt="Chris Gassman" width="Auto" src="https://uploads-ssl.webflow.com/61b7956e5b41b31e15be1ab4/63edea448523a5fb225830af_Chris%20Gassman.webp" loading="lazy" class="team-photo">
+              <h3 class="h3-no-bot-space">Chris Gassman</h3>
+              <p class="p-15ch">Senior Associate Director at University of Pittsburgh Center for Sustainable Business</p>
+              <a aria-label="Linkedin Profile" href="https://www.linkedin.com/in/chrisgassman/" target="_blank" class="social-link linkedin w-inline-block"></a>
+            </div>
+            <div role="listitem" class="team-item-copy"><img height="Auto" alt="Mike Geringer" width="Auto" src="https://uploads-ssl.webflow.com/61b7956e5b41b31e15be1ab4/63edeac31cd7f35547292885_Mike%20Geringer.webp" loading="lazy" class="team-photo">
+              <h3 class="h3-no-bot-space">Mike Geringer</h3>
+              <p class="p-15ch">Professor of Int. Strategy at University of Ohio</p>
+              <a aria-label="Linkedin Profile" href="https://www.linkedin.com/in/j-michael-mike-geringer-526b414/" target="_blank" class="social-link linkedin w-inline-block"></a>
+            </div>
+            <div role="listitem" class="team-item-copy"><img height="Auto" alt="Thai Bui" width="Auto" src="https://uploads-ssl.webflow.com/61b7956e5b41b31e15be1ab4/63ededd2f7f0e70f4a84b8f7_Thai%20%20Bui.webp" loading="lazy" class="team-photo">
+              <h3 class="h3-no-bot-space">Thai Bui</h3>
+              <p class="p-15ch">IT Manager, UW Medicine</p>
+              <a aria-label="Linkedin Profile" href="https://www.linkedin.com/in/thaibui/" target="_blank" class="social-link linkedin w-inline-block"></a>
+            </div>
+            <div role="listitem" class="team-item-copy"><img height="Auto" alt="Diego Zamalloa" width="Auto" src="https://uploads-ssl.webflow.com/61b7956e5b41b31e15be1ab4/63eded0b7a4231bf5c1bbd4f_Diego%20Zamalloa.webp" loading="lazy" class="team-photo">
+              <h3 class="h3-no-bot-space">Diego Zamalloa</h3>
+              <p class="p-15ch">Consultant, The Boston Consulting Group</p>
+              <a aria-label="Linkedin Profile" href="https://www.linkedin.com/in/diegozamalloa/" target="_blank" class="social-link linkedin w-inline-block"></a>
+            </div>
+            <div role="listitem" class="team-item-copy"><img height="Auto" alt="Souhail Gaboute" width="Auto" src="https://cdn.prod.website-files.com/61b7956e5b41b31e15be1ab4/68151a12c42d39144effbd75_souhail.jpeg" loading="lazy" class="team-photo">
+              <h3 class="h3-no-bot-space">Souhail Gaboute</h3>
+              <p class="p-15ch">Product Development Sr. Manager at UPS</p>
+              <a aria-label="Linkedin Profile" href="https://www.linkedin.com/in/souhailgaboute/" target="_blank" class="social-link linkedin w-inline-block"></a>
+            </div>
+            <div role="listitem" class="team-item-copy"><img height="Auto" alt="Michael Hansen" width="Auto" src="https://uploads-ssl.webflow.com/61b7956e5b41b31e15be1ab4/65cdea974c9d616b650fca51_Michael%20Hansen%201.webp" loading="lazy" class="team-photo">
+              <h3 class="h3-no-bot-space">Michael Hansen</h3>
+              <p class="p-15ch">Founder and Managing Partner, Frontier Wealth Strategies</p>
+              <a aria-label="Linkedin Profile" href="https://www.linkedin.com/in/michaelbhansen/" target="_blank" class="social-link linkedin w-inline-block"></a>
+            </div>
+            <div role="listitem" class="team-item-copy"><img height="Auto" alt="Lynn Chau" width="Auto" src="https://uploads-ssl.webflow.com/61b7956e5b41b31e15be1ab4/63edee0db6b5f303ce60d201_Lynn%20Chau.webp" loading="lazy" class="team-photo">
+              <h3 class="h3-no-bot-space">Lynn Chau</h3>
+              <p class="p-15ch">Associate - Implementation at McKinsey &amp; Company</p>
+              <a aria-label="Linkedin Profile" href="https://www.linkedin.com/in/lynnchau/" target="_blank" class="social-link linkedin w-inline-block"></a>
+            </div>
+            <div role="listitem" class="team-item-copy"><img height="Auto" alt="Royce Lee" width="Auto" src="https://uploads-ssl.webflow.com/61b7956e5b41b31e15be1ab4/65cdeae92a918dcd99e7f367_Royce%20Lee.webp" loading="lazy" class="team-photo">
+              <h3 class="h3-no-bot-space">Royce Lee</h3>
+              <p class="p-15ch">Senior Manager and Chief of Staff to CHRO, Amazon Web Services</p>
+              <a aria-label="Linkedin Profile" href="https://www.linkedin.com/in/royceslee/" target="_blank" class="social-link linkedin w-inline-block"></a>
+            </div>
+            <div role="listitem" class="team-item-copy"><img height="Auto" alt="Arya Sajedi" width="Auto" src="https://cdn.prod.website-files.com/61b7956e5b41b31e15be1ab4/68151ab27eec32067d1771a6_arya.jpeg" loading="lazy" class="team-photo">
+              <h3 class="h3-no-bot-space">Arya Sajedi</h3>
+              <p class="p-15ch">Founder and Partner at Quantum Lead</p>
+              <a aria-label="Linkedin Profile" href="https://www.linkedin.com/in/aryasaj/" target="_blank" class="social-link linkedin w-inline-block"></a>
+            </div>
+            <div role="listitem" class="team-item-copy"><img height="Auto" alt="Sofia DeAngelus" width="Auto" src="https://cdn.prod.website-files.com/61b7956e5b41b31e15be1ab4/6815239ba1f801eed1d24ed7_Screenshot%202025-05-02%20at%203.56.50%E2%80%AFp.m..png" loading="lazy" class="team-photo">
+              <h3 class="h3-no-bot-space">Sofia DeAngelus</h3>
+              <p class="p-15ch">Plenary Representative 2025</p>
+              <a aria-label="Linkedin Profile" href="https://www.linkedin.com/in/sofia-deangelus-a4b326294/" target="_blank" class="social-link linkedin w-inline-block"></a>
+            </div>
+            <div role="listitem" class="team-item-copy"><img height="Auto" alt="Jose Perez Calix" width="Auto" src="https://cdn.prod.website-files.com/61b7956e5b41b31e15be1ab4/688bdc99a60dac663e6eccbf_WhatsApp%20Image%202025-07-31%20at%2017.05.57.jpeg" loading="lazy" class="team-photo">
+              <h3 class="h3-no-bot-space">Jose Perez Calix</h3>
+              <p class="p-15ch">Plenary Representative 2025</p>
+              <a aria-label="Linkedin Profile" href="https://www.linkedin.com/in/joseperezcalix/" target="_blank" class="social-link linkedin w-inline-block"></a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="diagonal-section bottom-left w-embed"><svg class="trapezoidal-horizintal" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 100" preserveaspectratio="none">
         <polygon fill="#FFFFFF" points="0,0 100,100 0,100">
       </polygon></svg></div>
   </section>
-  <!--
   <section id="register" class="section white-bg">
-    <div class="container_em horizontal-2col">
-      <div class="sign-up-wrap _30">
-        <h2 class="h2"><strong class="bold-home">Register for the Event</strong></h2>
-        <p class="p-1rem">Secure your spot at the 70th Anniversary celebration. Registration is open to alumni, current members, and partners.</p>
-        <div class="w-form">
-          <form id="wf-form-70th-Anniversary" name="wf-form-70th-Anniversary" data-name="70th Anniversary Registration" method="get" data-wf-page-id="71a1c4ba5d1eec079a4aee71" data-wf-element-id="a1b2c3d4-e5f6-7890-abcd-ef1234567890">
-            <input class="field-form w-input" maxlength="256" name="Name" data-name="Name" placeholder="Full Name" type="text" id="Name" required="">
-            <input class="field-form w-input" maxlength="256" name="E-mail" data-name="E-mail" placeholder="E-mail" type="email" id="E-mail" required="">
-            <input class="field-form w-input" maxlength="256" name="Phone" data-name="Phone" placeholder="Phone Number" type="tel" id="Phone" required="">
-            <label for="Last-Role" class="label-form">Last Role</label>
-            <select id="Last-Role" name="Last-Role" data-name="Last Role" required="" class="field-form select w-select">
-              <option value="">Select your last role</option>
-              <option value="Member">Member</option>
-              <option value="Middle manager">Middle manager</option>
-              <option value="Local committee vice president">Local committee vice president</option>
-              <option value="Local committee president">Local committee president</option>
-              <option value="Member committee vice president">Member committee vice president</option>
-              <option value="Member committee president">Member committee president</option>
-            </select>
-            <div class="hero-cta">
-              <input type="submit" data-wait="Please wait..." class="button-cta-2 w-button" value="Register">
-            </div>
-          </form>
-          <div class="w-form-done">
-            <div>Thank you! Your registration has been received!</div>
-          </div>
-          <div class="w-form-fail">
-            <div>Oops! Something went wrong while submitting the form.</div>
-          </div>
-        </div>
+    <div class="container_em center-flex-wrap-vertical">
+      <div class="registration-form-toolbar">
+        <button type="button" id="registration-form-toggle" class="button-cta-v-norm button-registration-toggle w-button" aria-expanded="true" aria-controls="registration-form-content">Hide registration form</button>
       </div>
-      <div class="sign-up-wrap _60">
-        <div class="image-wrap auto"><img src="images/Sign-up-img.webp" loading="lazy" alt="AIESEC US members celebrating" class="img-hero"></div>
-        <div class="flex-vertical-stretch full-left">
-          <h3 class="h3">Join the Celebration</h3>
-          <p class="p-1rem">Be part of a historic moment as we mark 70 years of AIESEC in the United States. Register now to receive event updates and confirmation details.</p>
+      <div id="registration-form-content" class="registration-form-content container_em contact-form-wrap">
+        <div class="sign-up-wrap">
+          <h2 class="h2">Register for the <strong class="bold-home">Event</strong></h2>
+          <p class="p-space-bot-1"><strong>Secure your spot at the 70th Anniversary celebration.</strong> Registration is open to alumni, current members, and partners.</p>
+        </div>
+        <div class="gc-tabs anniversary-registration-layout">
+          <div class="gc-menu">
+            <div class="gc-tab w--current">
+              <div class="p-1rem">Join the celebration as we mark <span class="blue">70 years of AIESEC in the United States.</span></div>
+            </div>
+            <p class="p-1rem">Register now to receive event updates and confirmation details. Be part of a historic moment with alumni, members, and partners from across the country.</p>
+          </div>
+          <div class="gc-tab-content">
+            <div class="form-block-gc w-form">
+              <form id="wf-form-70th-Anniversary" name="wf-form-70th-Anniversary" data-name="70th Anniversary Registration" method="get" class="form-wrap" data-wf-page-id="71a1c4ba5d1eec079a4aee71" data-wf-element-id="a1b2c3d4-e5f6-7890-abcd-ef1234567890">
+                <div class="form-col"><input class="field-form space-right w-input" maxlength="256" name="First-Name" data-name="First Name" placeholder="First Name" type="text" id="Anniversary-First-Name" required=""><input class="field-form w-input" maxlength="256" name="Last-Name" data-name="Last Name" placeholder="Last Name" type="text" id="Anniversary-Last-Name" required=""></div>
+                <input class="field-form w-input" maxlength="256" name="E-mail" data-name="E-mail" placeholder="E-mail" type="email" id="Anniversary-E-mail" required="">
+                <input class="field-form w-input" maxlength="256" name="Phone" data-name="Phone" placeholder="Phone Number" type="tel" id="Anniversary-Phone" required="">
+                <label for="Anniversary-Last-Role" class="label-form">Last Role</label>
+                <select id="Anniversary-Last-Role" name="Last-Role" data-name="Last Role" required="" class="field-form select w-select">
+                  <option value="">Select your last role</option>
+                  <option value="Member">Member</option>
+                  <option value="Middle manager">Middle manager</option>
+                  <option value="Local committee vice president">Local committee vice president</option>
+                  <option value="Local committee president">Local committee president</option>
+                  <option value="Member committee vice president">Member committee vice president</option>
+                  <option value="Member committee president">Member committee president</option>
+                </select>
+                <input type="submit" data-wait="Please wait..." class="button-cta-2 space-top w-button" value="Register">
+              </form>
+              <div class="success-form w-form-done">
+                <div class="lottie-form-success" data-animation-type="lottie" data-src="documents/lottieflow-success-01-00c16e-easey.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="2.24" data-duration="0" data-loading="eager"></div>
+                <div class="text-block">Thank you! Your registration has been received!</div>
+              </div>
+              <div class="error-message w-form-fail">
+                <div>Oops! Something went wrong while submitting the form.</div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
-  -->
   <footer class="section footer">
     <div class="container_em footer">
       <div class="footer-flex-container">
@@ -1097,6 +1275,19 @@ document.addEventListener("DOMContentLoaded", function() {
         }, 2500);
       }, 6000);
     }, 900);
+  });
+})();
+</script>
+  <script>
+(function () {
+  var toggle = document.getElementById('registration-form-toggle');
+  var content = document.getElementById('registration-form-content');
+  if (!toggle || !content) return;
+
+  toggle.addEventListener('click', function () {
+    var hidden = content.classList.toggle('is-hidden');
+    toggle.textContent = hidden ? 'Show registration form' : 'Hide registration form';
+    toggle.setAttribute('aria-expanded', hidden ? 'false' : 'true');
   });
 })();
 </script>

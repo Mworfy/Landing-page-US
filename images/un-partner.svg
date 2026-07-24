@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="United Nations">
+  <circle cx="60" cy="60" r="58" fill="none" stroke="#4B9CD3" stroke-width="4"/>
+  <circle cx="60" cy="60" r="34" fill="none" stroke="#4B9CD3" stroke-width="3"/>
+  <ellipse cx="60" cy="60" rx="34" ry="12" fill="none" stroke="#4B9CD3" stroke-width="2.5"/>
+  <ellipse cx="60" cy="60" rx="12" ry="34" fill="none" stroke="#4B9CD3" stroke-width="2.5"/>
+  <ellipse cx="60" cy="60" rx="28" ry="10" fill="none" stroke="#4B9CD3" stroke-width="2" transform="rotate(45 60 60)"/>
+  <ellipse cx="60" cy="60" rx="28" ry="10" fill="none" stroke="#4B9CD3" stroke-width="2" transform="rotate(-45 60 60)"/>
+  <path d="M18 78 C28 92, 52 98, 60 98 C68 98, 92 92, 102 78" fill="none" stroke="#4B9CD3" stroke-width="3"/>
+  <path d="M22 74 C30 86, 50 92, 60 92 C70 92, 90 86, 98 74" fill="none" stroke="#4B9CD3" stroke-width="2"/>
+</svg>
