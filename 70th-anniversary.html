@@ -342,37 +342,186 @@ body .transition {display: block}
 }
 
 @media screen and (max-width: 991px) {
+  .page-70th-anniversary {
+    overflow-x: hidden;
+  }
+
   .page-70th-anniversary .anniversary-hero {
-    height: 100vh;
-    min-height: 100vh;
+    height: auto;
+    min-height: 100svh;
   }
 
   .page-70th-anniversary .anniversary-hero .container_em.hero {
     flex-direction: column;
-    justify-content: center;
-    height: 100vh;
-    min-height: 100vh;
+    justify-content: flex-start;
+    align-items: stretch;
+    height: auto;
+    min-height: auto;
     max-height: none;
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding-top: 7em;
+    padding-bottom: 3em;
+    gap: 1.5em;
   }
 
   .page-70th-anniversary .anniversary-hero .flex-hero.product {
     width: 100%;
     max-width: none;
+    order: 1;
+  }
+
+  .page-70th-anniversary .anniversary-hero h1 {
+    font-size: clamp(1.75rem, 7vw, 2.75rem);
+    line-height: 1.15;
+  }
+
+  .page-70th-anniversary .anniversary-hero .hero-cta {
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    gap: 0.75em;
+    margin-top: 0.5em;
+  }
+
+  .page-70th-anniversary .anniversary-hero .hero-cta .w-button {
+    width: 100%;
+    max-width: none;
+    text-align: center;
   }
 
   .page-70th-anniversary .anniversary-logo-wrap {
     width: 100%;
-    max-width: 18em;
+    max-width: 14em;
     padding-right: 0;
     padding-left: 0;
-    margin-top: 2em;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    order: 2;
     justify-content: center;
   }
 
   .page-70th-anniversary .anniversary-logo {
+    max-width: 14em;
+  }
+
+  .page-70th-anniversary #donate .donation_embed-wrap {
+    width: 100%;
+    margin-bottom: 2em;
+  }
+
+  .page-70th-anniversary #donate .max-ch_67 {
+    width: 100%;
+  }
+
+  .page-70th-anniversary #donate .link-block-arrow {
+    width: 100%;
+    margin-top: 1em;
+  }
+
+  .page-70th-anniversary .years-wrap .image-about-us {
+    width: 100%;
+    margin-bottom: 1.25em;
+  }
+
+  .page-70th-anniversary .years-wrap .center-flex-wrap-horizontal.sign-up-steps,
+  .page-70th-anniversary .years-wrap .center-flex-wrap-horizontal.sign-up-steps.reverse {
+    align-items: stretch;
+  }
+
+  .page-70th-anniversary .years-wrap .number-abs-big.about-us {
+    font-size: clamp(3rem, 16vw, 5rem);
+  }
+
+  .page-70th-anniversary .client-logo-grid {
+    justify-content: center;
+    gap: 1.5em 2em;
+  }
+
+  .page-70th-anniversary .event-partner-item {
+    width: 8.5em;
+  }
+
+  .page-70th-anniversary #anniversary-faq .faq_title {
+    padding: 1.25em 0.5em;
+    align-items: flex-start;
+  }
+
+  .page-70th-anniversary #anniversary-faq .faq_title .h4 {
+    font-size: 1rem;
+    line-height: 1.35;
+    padding-right: 0.75em;
+  }
+
+  .page-70th-anniversary #anniversary-faq .faq_lottie {
+    width: 1.5em;
+    height: 1.5em;
+    flex-shrink: 0;
+    margin-top: 0.15em;
+  }
+
+  .page-70th-anniversary .h3-testimonials {
+    grid-template-columns: 1fr;
+  }
+
+  .page-70th-anniversary .center-flex-wrap-horizontal.impact {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+  }
+
+  .page-70th-anniversary .impact-nr {
+    width: 100%;
+    max-width: 100%;
+    flex: none;
+    overflow: visible;
+    align-items: center;
+    margin-bottom: 1.5em;
+  }
+
+  .page-70th-anniversary .impact-nr .h3-impact {
+    font-size: clamp(1.75rem, 7.5vw, 3.5rem);
+    line-height: 1.1;
+    text-align: center;
+    white-space: nowrap;
+    max-width: 100%;
+  }
+
+  .page-70th-anniversary .impact-nr p {
+    text-align: center;
     max-width: 18em;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .page-70th-anniversary .anniversary-hero .container_em.hero {
+    padding-top: 5.5em;
+    padding-left: 1.25em;
+    padding-right: 1.25em;
+  }
+
+  .page-70th-anniversary .section:not(.nav):not(.footer) .container_em {
+    padding-left: 1.25em;
+    padding-right: 1.25em;
+  }
+
+  .page-70th-anniversary .anniversary-logo-wrap {
+    max-width: 11em;
+  }
+
+  .page-70th-anniversary .anniversary-logo {
+    max-width: 11em;
+  }
+
+  .page-70th-anniversary .p-center._80--left-mobile {
+    text-align: left;
+    width: 100%;
+  }
+
+  .page-70th-anniversary .hero-cta .w-button {
+    font-size: 0.95rem;
+    padding-left: 1em;
+    padding-right: 1em;
   }
 }
 </style>
@@ -708,7 +857,7 @@ svg.trapezoidal-horizintal{
       </polygon></svg></div>
     <div class="container_em horizontal-divide-tablet _3-gap">
       <div class="donation_embed-wrap">
-        <div class="donation_embed w-embed"><givebutter-widget id="LyPBBj"></givebutter-widget></div>
+        <div class="donation_embed w-embed"><givebutter-widget id="LYOJo1"></givebutter-widget></div>
         <a href="#anniversary-faq" class="link-block-arrow top-auto w-inline-block">
           <div>Questions about donating? Read the FAQ</div><img src="images/Arrow-right.svg" loading="lazy" alt="" class="arrow-link">
           <div class="line arrow"></div>
