@@ -331,34 +331,6 @@ body .transition {display: block}
   }
 }
 
-.page-70th-anniversary .donation-faq-note {
-  margin-top: 1.25em;
-  margin-bottom: 0.75em;
-  text-align: center;
-}
-
-.page-70th-anniversary .donation-faq-link {
-  justify-content: center;
-  align-items: center;
-  gap: 0.5em;
-  width: 100%;
-  padding: 0.95em 1.25em;
-  background-color: var(--anniversary-blue);
-  color: #fff;
-  font-weight: 700;
-  text-align: center;
-  text-decoration: none;
-  border: 2px solid var(--anniversary-blue);
-  border-radius: 0.5em;
-  transition: background-color 0.2s, color 0.2s;
-  display: flex;
-}
-
-.page-70th-anniversary .donation-faq-link:hover {
-  background-color: #fff;
-  color: var(--anniversary-blue);
-}
-
 .anniversary-fireworks-canvas {
   position: fixed;
   top: 0;
@@ -737,8 +709,10 @@ svg.trapezoidal-horizintal{
     <div class="container_em horizontal-divide-tablet _3-gap">
       <div class="donation_embed-wrap">
         <div class="donation_embed w-embed"><givebutter-widget id="LyPBBj"></givebutter-widget></div>
-        <p class="p-1rem donation-faq-note">Questions about donating?</p>
-        <a href="#anniversary-faq" class="donation-faq-link w-inline-block">Read the FAQ</a>
+        <a href="#anniversary-faq" class="link-block-arrow top-auto w-inline-block">
+          <div>Questions about donating? Read the FAQ</div><img src="images/Arrow-right.svg" loading="lazy" alt="" class="arrow-link">
+          <div class="line arrow"></div>
+        </a>
       </div>
       <div class="max-ch_67">
         <h2>You Were Somebody&#x27;s First Yes</h2>
